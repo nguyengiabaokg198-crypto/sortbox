@@ -1,6 +1,8 @@
 package com.sortbox;
 
 import com.mojang.logging.LogUtils;
+import com.sortbox.networking.SortActionPayload;
+import com.sortbox.server.SortServer;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
