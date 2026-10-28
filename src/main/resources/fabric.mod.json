@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "sortbox",
+	"version": "${version}",
+	"name": "SortBox",
+	"description": "SortBox: one-tap sorting for your inventory and chests (grouped by tools/blocks/food/misc), plus quick store-all / take-all. Touch-friendly buttons, no commands.",
+	"authors": [
+		"hai"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/sortbox/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.sortbox.SortBox"
+		],
+		"client": [
+			"com.sortbox.client.SortBoxClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
